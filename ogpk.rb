@@ -6,6 +6,6 @@ class Ogpk < Formula
   version "0.1.0"
 
   def install
-    bin.install "ogpk-#{version}-darwin-amd64"
+    bin.install "ogpk-#{version}-darwin-amd64" => "ogpk"
   end
 end

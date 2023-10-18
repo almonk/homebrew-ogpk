@@ -1,9 +1,9 @@
 class Ogpk < Formula
   desc "CLI tool to fetch OpenGraph data from a URL"
   homepage "https://github.com/almonk/ogpk"
-  url "https://github.com/almonk/ogpk/releases/download/0.1.1/ogpk-0.1.1-darwin-amd64"
-  sha256 "4a29bd31ec31661d1319ef66a2ada12cb4491ace97492364b791398bf03d0bd3"
-  version "0.1.1"
+  url "https://github.com/almonk/ogpk/releases/download/0.1.3/ogpk-0.1.3-darwin-amd64"
+  sha256 "85952dca516db6581510e830da69e54e69fcb3ebb15ec776e2e0054597e737c4"
+  version "0.1.3"
 
   def install
     bin.install "ogpk-#{version}-darwin-amd64" => "ogpk"
